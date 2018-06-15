@@ -45,6 +45,7 @@ namespace TollBooth
             }
             catch (Exception e)
             {
+                // log comment
                 log.Error(e.Message);
             }
 
