@@ -21,6 +21,7 @@ namespace TollBooth
             // Reuse the HttpClient across calls as much as possible so as not to exhaust all available sockets on the server on which it runs.
             _client = _client ?? new HttpClient();
 
+            // add log info
             log.Info($"Processing {name}");
 
             try
